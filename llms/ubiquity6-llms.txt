@@ -1,0 +1,16 @@
+# Ubiquity6
+
+> Ubiquity6 was a San Francisco augmented-reality startup ("Capture & Edit Reality") backed by Benchmark, First Round, and Index Ventures. It built Display.land, a multiplayer 3D/AR/VR capture and creation platform, and was acquired by Discord in June 2021, after which its products were discontinued. Ubiquity6 never published a public API; this profile is maintained by API Evangelist for the network catalog.
+
+## Company
+
+- [Website](https://ubiquity6.com): Post-acquisition landing page announcing the Discord acquisition
+- [Acquisition announcement](https://medium.com/@ubiquity_6/ubiquity6-discord-3b54cd715943): "Discord has acquired Ubiquity6!" (June 2021)
+- [Blog (Medium)](https://medium.com/@ubiquity_6): Company announcements — Display.land Studio, Series B, Wavy AR acquisition
+- [GitHub organization](https://github.com/ubiquity6): ~100 public repos, primarily open-source forks (computer vision, 3D reconstruction, React Native tooling)
+
+## Catalog
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/ubiquity6/refs/heads/main/apis.yml): APIs.json profile for Ubiquity6 (no public APIs)
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live probes; ubiquity6.com publishes no llms.txt (catch-all soft-404) -->

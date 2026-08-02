@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+host: https://ubiquity6.com
+note: >-
+  ubiquity6.com (Cloudflare-fronted static site) is a catch-all: every path
+  returns HTTP 200 with the HTML homepage (content-type text/html), including
+  all /.well-known/ paths and /llms.txt. None of the discovery documents are
+  genuinely published — the 200s are soft-404s, so no raw files were saved
+  and no WellKnown/SecurityTxt pointers are wired.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_404: true
+    present: false
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+    present: false
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+    present: false
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_404: true
+    present: false
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_404: true
+    present: false
+  - path: /llms.txt
+    status: 200
+    soft_404: true
+    present: false

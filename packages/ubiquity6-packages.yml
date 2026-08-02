@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=ubiquity6
+note: >-
+  Ubiquity6 published packages under the @ubiquity6 npm scope while operating
+  (the company was acquired by Discord in June 2021 and its Display.land
+  product was discontinued). These are open-source forks and internal build
+  tooling published by Ubiquity6 engineers — they are NOT client SDKs for a
+  public API; Ubiquity6 never published a public API. No packages found on
+  PyPI (404), Maven Central, NuGet, RubyGems, Packagist, or crates.io.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@ubiquity6/three"
+    url: https://www.npmjs.com/package/@ubiquity6/three
+    install: npm install @ubiquity6/three
+    official: true
+    kind: oss-fork
+    description: Ubiquity6 fork of the three.js JavaScript 3D library (v0.93.0)
+  - language: javascript
+    registry: npm
+    name: "@ubiquity6/eslint-config-usagi"
+    url: https://www.npmjs.com/package/@ubiquity6/eslint-config-usagi
+    install: npm install @ubiquity6/eslint-config-usagi
+    official: true
+    kind: build-tooling
+    description: Internal ESLint configuration
+  - language: javascript
+    registry: npm
+    name: "@ubiquity6/metro-bundler-config-yarn-workspaces"
+    url: https://www.npmjs.com/package/@ubiquity6/metro-bundler-config-yarn-workspaces
+    install: npm install @ubiquity6/metro-bundler-config-yarn-workspaces
+    official: true
+    kind: build-tooling
+    description: Metro bundler configuration for yarn workspaces
+  - language: javascript
+    registry: npm
+    name: "@ubiquity6/client-test-bulk-data"
+    url: https://www.npmjs.com/package/@ubiquity6/client-test-bulk-data
+    official: true
+    kind: test-tooling
+    description: Client test bulk data package
