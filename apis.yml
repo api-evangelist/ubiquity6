@@ -33,6 +33,9 @@ accessModel:
   method: derived
 image: https://avatars.githubusercontent.com/u/30269823?v=4
 url: https://raw.githubusercontent.com/api-evangelist/ubiquity6/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Ubiquity6 never published a public API or developer program; its GitHub organization survives as a set of open-source computer vision and React Native forks, and a few internal packages remain on npm "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
